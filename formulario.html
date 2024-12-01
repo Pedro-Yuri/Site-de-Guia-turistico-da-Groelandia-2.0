@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="/pages/css/formsdoSite.css">
+    <link rel="stylesheet" href="/pages/css/main-footer.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Sobre a Exeperiencia do Usuario</title>
+</head>
+<body>
+ <h1>Queremos te conhecer melhor!!!</h1>
+        <form action="/enviar-feedback" method="POST">
+            <label for="nome">Seu Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+    
+            <label for="email">Seu E-mail:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="feedback">O que você achou do nosso site?</label><br>
+            <textarea id="feedback" name="feedback" rows="10" cols="50" required></textarea><br><br>
+    
+            <button type="submit">Enviar Feedback</button>
+        </form>
+        <script src="/java/formsdoSite.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+.main-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.main-footer .logo{
+    margin: bottom 20px;
+    font-size: 20px;
+    padding:20px;
+}
+
+* {
+    margin: 0;
+    padding: 0%;
+
+}
+a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size: 20px
+}
+a:hover{
+    color:rgb(36, 163, 132);
+}
+button {
+    width: 200px;
+    height: 40px;
+    display: block;
+    margin: 15px;
+    margin: left 10px;
+    border-radius: 5%;
+    border: none;
+    background-color:black;
+    font-family: inherit;
+    color:white;
+    font-size: 23px;
+    cursor: pointer;
+    box-sizing: border-box;
+    box-shadow: black;
+    transition: transform 200ms ease-in-out;
+}
+button:hover {
+    transform: scale(1.05);
+
+}
